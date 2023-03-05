@@ -3,7 +3,7 @@
     @author leonardo duran burguete
 */
 
-#define tam 8
+#define tam 5
  
 
 double promedioDeArreglo(int arreglo[], int cantidadDeElementos);
