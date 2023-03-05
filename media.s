@@ -23,6 +23,8 @@ main:
     #prologue stars here
 	push	{r7, lr}
 	sub	sp, sp, #24
+	sub     sp,  r7 #0x03
+	sub     sp   lr #0x04
 	add	r7, sp, #0
 	ldr	r3, .L6
 	ldr	r3, [r3]
