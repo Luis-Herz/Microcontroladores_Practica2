@@ -5,42 +5,30 @@
 *   Este programa invertira los elementos de un arreglo
 */
 //#include <stdio.h>
-/*
-int invierte(){
-    int b[5] = {};
-    for (int i = n-1; i > -1; i--)
+#define n 5
+
+void invierte(int a[], int tam){
+    
+    int b[n] = {};
+    int m = 0, i;
+    for (i = tam-1; i > -1; i--)
     {
         b[m] = a[i];
         m++;
     }
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < tam; i++)
     {
-        //printf("%i",b[i]);
+        // aqui se imprimira el arreglo invertido
     }
-    return 0;
-}*/
-
-int invierte(int arreglo[], int n){
-    int b[5] = {};
-    int m = 0;
-    for (int i = n-1; i > -1; i--)
-    {
-        b[m] = arreglo[i];
-        m++;
-    }
-    for (int i = 0; i < n; i++)
-    {
-        return b[i];
-    }
-    
+    return;
 }
 
 int main(){
-    int a[5] = {1,2,3,4,5};
-    return invierte(a, 5);
+    int a[n] = {};
+    for (int i = 0; i < n; i++)
+    {
+        // aqui se pediran los numeros para llenar el arreglo
+    }
+    invierte(a, n);
     return 0;
 }
-
-/*  falta leer el arreglo desde la terminal
-*   imprimir resultado desde la terminal
-*/
